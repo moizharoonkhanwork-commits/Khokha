@@ -8,7 +8,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <script>document.documentElement.classList.add("js");</script>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
@@ -17,24 +17,37 @@
   <header class="site-header">
     <nav class="nav container">
       <a class="brand" href="index.html">
-        <img src="assets/img/logo.svg" alt="Khans logo" />
-        <span class="brand-word">KH<b>A</b>NS</span>
+        <img src="assets/img/sprig.svg" alt="" aria-hidden="true" />
+        <span class="brand-word">KHANS</span>
       </a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html" aria-current="page">Menu</a></li>
         <li class="has-dropdown">
-          <a href="#" aria-haspopup="true">Locations</a>
+          <a href="#" aria-haspopup="true">Locations &amp; Hours <i class="caret">&#9662;</i></a>
           <ul class="dropdown">
             <li><a href="middlesex.html">Middlesex, NJ <small>300 Bound Brook Rd</small></a></li>
             <li><a href="manhattan.html">Manhattan, NY <small>215 W 38th St</small></a></li>
           </ul>
         </li>
+        <li class="has-dropdown">
+          <a href="rewards.html" aria-haspopup="true">Rewards <i class="caret">&#9662;</i></a>
+          <ul class="dropdown">
+            <li><a href="rewards.html">Join Khans Rewards</a></li>
+            <li><a href="rewards.html#signin">Sign In</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="gift-cards.html" aria-haspopup="true">Gift Cards <i class="caret">&#9662;</i></a>
+          <ul class="dropdown">
+            <li><a href="gift-cards.html">Buy a Gift Card</a></li>
+            <li><a href="gift-cards.html#balance">Check Balance</a></li>
+          </ul>
+        </li>
         <li><a href="catering.html">Catering</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-      <div class="nav-cta"><a class="btn btn--red" href="order.html">Order Online</a></div>
+      <div class="nav-cta"><a class="btn btn--primary" href="order.html">Order Now</a></div>
     </nav>
   </header>
 
@@ -326,38 +339,40 @@
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div class="footer-brand">
-        <span class="brand-word">KH<b>A</b>NS</span>
-        <p>Pakistani-American fusion, done halal. Bold flavor, fresh parathas, smashed patties and chai that hits different.</p>
-      </div>
       <div>
         <h4>Explore</h4>
         <ul>
-          <li><a href="menu.html">Menu</a></li>
           <li><a href="catering.html">Catering</a></li>
-          <li><a href="order.html">Order Online</a></li>
+          <li><a href="index.html#about">About</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="menu.html">Menu</a></li>
         </ul>
       </div>
       <div>
         <h4>Locations</h4>
-        <ul>
-          <li><a href="middlesex.html">Middlesex, NJ</a></li>
-          <li><a href="manhattan.html">Manhattan, NY</a></li>
-        </ul>
+        <p class="loc-line"><a href="middlesex.html">Middlesex, NJ</a> &ndash; <a href="tel:+17325550146">(732) 555-0146</a></p>
+        <p class="loc-sub">Regular Hours: 11 AM &ndash; 12 AM &middot; Everyday</p>
+        <p class="loc-sub">Ramadan Hours: 12 PM &ndash; 1 AM &middot; Everyday</p>
+        <p class="loc-line" style="margin-top:1.1rem"><a href="manhattan.html">Manhattan, NY</a> &ndash; <a href="tel:+12125550188">(212) 555-0188</a></p>
+        <p class="loc-sub">Hours: 11 AM &ndash; 1 AM &middot; Everyday</p>
       </div>
       <div>
-        <h4>Hours</h4>
-        <div class="hours-list">
-          <div class="h"><span>Middlesex</span><span>11am – 12am</span></div>
-          <div class="h"><span>Manhattan</span><span>11am – 1am</span></div>
-          <div class="h"><span>Catering</span><span>By request</span></div>
-        </div>
+        <h4>Let's Be Friends</h4>
+        <p>Drop your email for news and updates. No spam &mdash; scout's honor.</p>
+        <form class="newsletter" data-demo>
+          <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
+          <button class="btn btn--light" type="submit">Sign Up</button>
+          <p class="form-status form-note" style="color:var(--cream);margin-top:.6rem"></p>
+        </form>
       </div>
     </div>
     <div class="container footer-bottom">
-      <span>&copy; <span data-year>2026</span> Khans. All rights reserved.</span>
-      <span>Halal Certified · Made fresh to order</span>
+      <div class="socials">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.17-1 .37-2.2.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.42-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.17-.4-.37-1-.42-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.17 1-.37 2.2-.42C8.4 2.2 8.8 2.2 12 2.2Zm0 4.9a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8Zm0 1.8a3.1 3.1 0 1 1 0 6.2 3.1 3.1 0 0 1 0-6.2Zm5.1-2.5a1.15 1.15 0 1 0 0 2.3 1.15 1.15 0 0 0 0-2.3Z"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5h1.65V3.6c-.3 0-1.3-.1-2.45-.1-2.4 0-4.05 1.45-4.05 4.15v2.25H7.6V13h2.05v8h3.85Z"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.3 2 1.5 3.6 3.5 3.9v2.8c-1.3 0-2.5-.4-3.5-1v5.9c0 3.2-2.4 5.4-5.4 5.4S5.7 17.8 5.7 14.9c0-2.9 2.4-5.2 5.5-5l0 2.9c-.4-.1-.8-.2-1.2-.1-1.3.1-2.3 1.1-2.2 2.4.1 1.3 1.1 2.2 2.4 2.2 1.4 0 2.3-1 2.3-2.6V3h3Z"/></svg></a>
+      </div>
+      <span>&copy; <span data-year>2026</span> Khans. All rights reserved. &middot; Halal Certified</span>
     </div>
   </footer>
 

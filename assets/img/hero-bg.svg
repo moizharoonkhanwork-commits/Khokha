@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Khans paratha roll on a wooden board">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c08a4e"/>
+      <stop offset="45%" stop-color="#a9743b"/>
+      <stop offset="100%" stop-color="#7e5226"/>
+    </linearGradient>
+    <linearGradient id="paratha" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0dcab"/>
+      <stop offset="55%" stop-color="#e3c282"/>
+      <stop offset="100%" stop-color="#cba35c"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfaf5"/>
+      <stop offset="100%" stop-color="#e7e3d6"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.18"/>
+    </radialGradient>
+  </defs>
+
+  <!-- wooden board -->
+  <rect width="1600" height="900" fill="url(#wood)"/>
+  <g stroke="#6e481f" stroke-opacity="0.35" stroke-width="3" fill="none">
+    <path d="M0 150 Q800 120 1600 170"/>
+    <path d="M0 320 Q800 290 1600 340"/>
+    <path d="M0 470 Q800 450 1600 500"/>
+    <path d="M0 640 Q800 610 1600 660"/>
+    <path d="M0 800 Q800 780 1600 820"/>
+  </g>
+  <g stroke="#3f2a12" stroke-opacity="0.18" stroke-width="2" fill="none">
+    <path d="M0 230 Q800 210 1600 250"/>
+    <path d="M0 560 Q800 540 1600 580"/>
+    <path d="M0 720 Q800 700 1600 740"/>
+  </g>
+
+  <!-- big paratha roll, diagonal -->
+  <g transform="rotate(-19 800 450)">
+    <!-- shadow -->
+    <ellipse cx="820" cy="560" rx="690" ry="120" fill="#000" opacity="0.18"/>
+    <!-- roll body -->
+    <rect x="150" y="330" width="1340" height="270" rx="135" fill="url(#paratha)"/>
+    <!-- paper wrapper on right end -->
+    <path d="M1010 330 H1430 a135 135 0 0 1 0 270 H1010 Z" fill="url(#paper)"/>
+    <g stroke="#d8d2c0" stroke-width="3" opacity="0.7" fill="none">
+      <path d="M1070 360 l40 30 -40 30 40 30 -40 30 40 30 -40 30"/>
+      <path d="M1170 360 l40 30 -40 30 40 30 -40 30 40 30 -40 30"/>
+      <path d="M1270 360 l40 30 -40 30 40 30 -40 30 40 30 -40 30"/>
+      <path d="M1370 360 l40 30 -40 30 40 30 -40 30 40 30 -40 30"/>
+    </g>
+    <!-- toasted char spots on paratha -->
+    <g fill="#bd8c42" opacity="0.55">
+      <ellipse cx="300" cy="420" rx="26" ry="16"/>
+      <ellipse cx="430" cy="500" rx="20" ry="13"/>
+      <ellipse cx="560" cy="400" rx="30" ry="18"/>
+      <ellipse cx="700" cy="500" rx="22" ry="14"/>
+      <ellipse cx="840" cy="410" rx="28" ry="17"/>
+      <ellipse cx="950" cy="495" rx="18" ry="12"/>
+    </g>
+    <g fill="#8a5e27" opacity="0.4">
+      <circle cx="360" cy="470" r="7"/>
+      <circle cx="500" cy="440" r="6"/>
+      <circle cx="640" cy="470" r="7"/>
+      <circle cx="780" cy="445" r="6"/>
+      <circle cx="900" cy="470" r="6"/>
+    </g>
+    <!-- open left end: filling -->
+    <ellipse cx="190" cy="465" rx="80" ry="135" fill="#e7c98a"/>
+    <ellipse cx="180" cy="465" rx="62" ry="115" fill="#6f3c22"/>
+    <!-- pulled beef strands -->
+    <g fill="#7a4528" stroke="#54291a" stroke-width="6" stroke-linecap="round">
+      <path d="M150 410 q-40 20 -70 10"/>
+      <path d="M150 450 q-50 8 -86 28"/>
+      <path d="M150 490 q-44 22 -90 22"/>
+      <path d="M150 530 q-40 28 -80 18"/>
+    </g>
+    <!-- pickled red onions -->
+    <g fill="none" stroke="#d24b86" stroke-width="9" stroke-linecap="round">
+      <path d="M120 430 q-26 14 -10 36"/>
+      <path d="M96 470 q-28 10 -14 38"/>
+      <path d="M120 512 q-30 12 -8 36"/>
+      <path d="M150 470 q-26 18 -6 38"/>
+    </g>
+    <g fill="none" stroke="#ec84b0" stroke-width="5" stroke-linecap="round">
+      <path d="M120 430 q-26 14 -10 36"/>
+      <path d="M96 470 q-28 10 -14 38"/>
+      <path d="M120 512 q-30 12 -8 36"/>
+    </g>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#vig)"/>
+</svg>

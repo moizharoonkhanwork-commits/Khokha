@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Khans — Pakistani-American Fusion · Halal Restaurant in NJ & NY</title>
-  <meta name="description" content="Khans serves bold Pakistani-American fusion — smash burgers, fresh paratha rolls, lamb chops, loaded fries and desi chai. 100% halal. Locations in Middlesex, NJ and Manhattan, NY." />
+  <title>Gift Cards — Khans | Give the Gift of Khans</title>
+  <meta name="description" content="Khans gift cards — the perfect gift for any occasion. Buy online and use at our Middlesex, NJ and Manhattan, NY locations, or check your balance." />
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,7 +14,6 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <nav class="nav container">
       <a class="brand" href="index.html">
@@ -23,7 +22,7 @@
       </a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <ul class="nav-links">
-        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li class="has-dropdown">
           <a href="#" aria-haspopup="true">Locations &amp; Hours <i class="caret">&#9662;</i></a>
           <ul class="dropdown">
@@ -39,7 +38,7 @@
           </ul>
         </li>
         <li class="has-dropdown">
-          <a href="gift-cards.html" aria-haspopup="true">Gift Cards <i class="caret">&#9662;</i></a>
+          <a href="gift-cards.html" aria-haspopup="true" aria-current="page">Gift Cards <i class="caret">&#9662;</i></a>
           <ul class="dropdown">
             <li><a href="gift-cards.html">Buy a Gift Card</a></li>
             <li><a href="gift-cards.html#balance">Check Balance</a></li>
@@ -52,49 +51,58 @@
     </nav>
   </header>
 
-  <!-- HERO: full-bleed food image + order card -->
-  <section class="home-hero">
-    <img class="home-hero__img" src="assets/img/hero-bg.svg" alt="Khans paratha roll on a wooden board" />
-    <div class="order-pick">
-      <h2>Order Now</h2>
-      <a class="btn" href="order.html">Middlesex, NJ</a>
-      <a class="btn" href="order.html">Manhattan, NY</a>
-    </div>
-  </section>
-
-  <!-- PROMO BAND -->
-  <section class="band band--green">
-    <div class="container band__grid">
-      <h2 class="band__title"><span>Bold flavor.</span><span>Made fresh, made halal.</span></h2>
-      <p class="band__text">Every order is cooked to order with quality ingredients and a whole lot of care. One bite and you'll taste the difference.</p>
-    </div>
-  </section>
-
-  <!-- CATERING CTA -->
-  <section class="event">
+  <section class="menu-hero">
     <div class="container">
-      <h2>Hosting an event?</h2>
-      <p>We offer exceptional catering, perfect for any occasion.</p>
-      <a class="btn btn--primary" href="catering.html">Cater My Event</a>
+      <span class="hero__eyebrow" style="justify-content:center">Gift Cards</span>
+      <h1>Give the gift of Khans</h1>
+      <p>The easiest way to share a good meal. Khans gift cards work at both locations, in person or online.</p>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="container about__grid">
-      <div class="about__copy">
-        <h2 class="about__title">ABOUT<br />KHANS</h2>
-        <p>Long before food courts and delivery apps, a <em>khan</em> was a roadside inn — a bustling stop where travelers and traders gathered to share a hot meal and good company. That spirit of warm, easy hospitality is exactly what we set out to recreate, just in a modern way.</p>
-        <p>Khans is here to serve good, hearty food: a fusion of Pakistani and American kitchens. With a cozy atmosphere, friendly faces and a menu packed with mouthwatering dishes, it's the perfect place to slow down and enjoy a great meal.</p>
-        <p>Our menu is built for every appetite — whether it's a relaxed dinner with loved ones, a quick lunch with friends, or a solo plate at the counter. Come as you are and leave with a full stomach, a satisfied heart and a smile.</p>
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <div class="about__frame" style="transform:rotate(-3deg);width:min(420px,100%);background:linear-gradient(135deg,#1f4a2b,#2a5d39)">
+            <div style="padding:38px 30px;color:var(--cream);min-height:230px;display:flex;flex-direction:column;justify-content:space-between">
+              <div style="display:flex;align-items:center;gap:.5rem">
+                <img src="assets/img/sprig.svg" alt="" style="height:26px;filter:brightness(0) invert(1)" />
+                <span style="font-weight:700;letter-spacing:3px">KHANS</span>
+              </div>
+              <div>
+                <div style="font-size:.8rem;letter-spacing:.1em;opacity:.8;text-transform:uppercase">Gift Card</div>
+                <div style="font-family:var(--display);font-size:2.4rem;font-weight:800">$50</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 style="font-size:2rem;color:var(--green-deep)">Buy a Gift Card</h2>
+          <p style="color:var(--muted)">Choose an amount, add a personal note, and we'll email it to your recipient.</p>
+          <form data-demo>
+            <div class="field"><label for="ga">Amount</label>
+              <select id="ga" name="amount"><option>$25</option><option selected>$50</option><option>$75</option><option>$100</option></select>
+            </div>
+            <div class="field"><label for="gr">Recipient Email</label><input id="gr" name="to" type="email" required /></div>
+            <div class="field"><label for="gm">Message</label><textarea id="gm" name="message" rows="3" placeholder="Enjoy a meal on us!"></textarea></div>
+            <button class="btn btn--primary" type="submit">Buy Gift Card</button>
+            <p class="form-status form-note" style="margin-top:1rem"></p>
+          </form>
+        </div>
       </div>
-      <div class="about__art">
-        <div class="about__frame"><img src="assets/img/burger.svg" alt="Khans signature burger" /></div>
+
+      <div id="balance" style="margin-top:56px;max-width:520px">
+        <h2 style="font-size:2rem;color:var(--green-deep)">Check Your Balance</h2>
+        <p style="color:var(--muted)">Enter your gift card number to see how much you have left.</p>
+        <form data-demo>
+          <div class="field"><label for="gc">Gift Card Number</label><input id="gc" name="card" type="text" required /></div>
+          <button class="btn btn--dark" type="submit">Check Balance</button>
+          <p class="form-status form-note" style="margin-top:1rem"></p>
+        </form>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>

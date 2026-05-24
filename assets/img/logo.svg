@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Khans logo">
+  <circle cx="60" cy="60" r="58" fill="#17110d" stroke="#e8a531" stroke-width="3"/>
+  <!-- awning -->
+  <path d="M28 44 L92 44 L92 54 L28 54 Z" fill="#c8432b"/>
+  <path d="M28 54 q8 12 16 0 q8 12 16 0 q8 12 16 0 q8 12 16 0 L92 54 Z" fill="#e8a531"/>
+  <!-- stand body -->
+  <rect x="34" y="58" width="52" height="30" rx="3" fill="#2c2017"/>
+  <rect x="34" y="58" width="52" height="6" fill="#3a2a1d"/>
+  <!-- counter -->
+  <rect x="30" y="86" width="60" height="6" rx="2" fill="#e8a531"/>
+  <!-- K monogram -->
+  <text x="60" y="80" font-family="Bebas Neue, Arial Narrow, sans-serif" font-size="26" fill="#faf3e7" text-anchor="middle" font-weight="700">K</text>
+  <!-- steam -->
+  <path d="M50 36 q-4 -6 0 -12 q4 -6 0 -12" fill="none" stroke="#faf3e7" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+  <path d="M70 36 q4 -6 0 -12 q-4 -6 0 -12" fill="none" stroke="#faf3e7" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+</svg>

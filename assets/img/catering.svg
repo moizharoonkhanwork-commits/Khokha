@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-label="Catering spread">
+  <defs>
+    <linearGradient id="ctbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff6e6"/><stop offset="100%" stop-color="#f1e6d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="520" rx="24" fill="url(#ctbg)"/>
+  <!-- table -->
+  <rect x="40" y="360" width="560" height="120" rx="10" fill="#5a4332"/>
+  <rect x="40" y="360" width="560" height="14" fill="#6b5040"/>
+  <!-- big platters -->
+  <g>
+    <ellipse cx="170" cy="330" rx="120" ry="40" fill="#cfd2d6"/>
+    <ellipse cx="170" cy="322" rx="108" ry="34" fill="#e6e9ec"/>
+    <g fill="#9a5230"><circle cx="120" cy="316" r="16"/><circle cx="160" cy="324" r="16"/><circle cx="200" cy="316" r="16"/><circle cx="140" cy="330" r="14"/><circle cx="186" cy="332" r="14"/></g>
+  </g>
+  <g>
+    <ellipse cx="450" cy="340" rx="130" ry="42" fill="#cfd2d6"/>
+    <ellipse cx="450" cy="332" rx="116" ry="36" fill="#e6e9ec"/>
+    <g fill="#e8a531"><rect x="392" y="310" width="14" height="40" rx="4"/><rect x="414" y="304" width="14" height="46" rx="4"/><rect x="436" y="308" width="14" height="42" rx="4"/><rect x="458" y="304" width="14" height="46" rx="4"/><rect x="480" y="310" width="14" height="40" rx="4"/></g>
+    <path d="M392 326 q30 -16 116 0" fill="none" stroke="#c8432b" stroke-width="6"/>
+  </g>
+  <!-- chafing dish center -->
+  <g transform="translate(260 250)">
+    <rect x="0" y="60" width="160" height="46" rx="10" fill="#c0c4c8"/>
+    <path d="M-6 60 q86 -44 172 0 Z" fill="#d9dde0"/>
+    <circle cx="80" cy="6" r="9" fill="#9aa0a6"/>
+    <g fill="none" stroke="#c97e1c" stroke-width="4" stroke-linecap="round" opacity=".5">
+      <path d="M50 30 q-8 -16 0 -30"/><path d="M110 30 q8 -16 0 -30"/>
+    </g>
+  </g>
+  <!-- banner -->
+  <rect x="170" y="60" width="300" height="60" rx="12" fill="#17110d"/>
+  <text x="320" y="100" font-family="Bebas Neue, Arial Narrow, sans-serif" font-size="34" fill="#e8a531" text-anchor="middle" letter-spacing="3">CATERING</text>
+</svg>

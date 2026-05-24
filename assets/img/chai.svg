@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Pakistani chai">
+  <defs>
+    <radialGradient id="cbg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fff6e6"/><stop offset="100%" stop-color="#f1e6d2"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#cbg)"/>
+  <ellipse cx="300" cy="378" rx="150" ry="26" fill="#000" opacity=".12"/>
+  <!-- saucer -->
+  <ellipse cx="300" cy="360" rx="150" ry="34" fill="#fff" stroke="#e3d6bd" stroke-width="3"/>
+  <!-- cup -->
+  <path d="M210 220 L390 220 L372 348 Q300 372 228 348 Z" fill="#fff" stroke="#e3d6bd" stroke-width="3"/>
+  <path d="M218 224 L382 224 L378 252 Q300 274 222 252 Z" fill="#b9763e"/>
+  <ellipse cx="300" cy="226" rx="86" ry="20" fill="#cf8a4d"/>
+  <ellipse cx="300" cy="224" rx="70" ry="14" fill="#a9682f"/>
+  <!-- handle -->
+  <path d="M388 250 q44 6 36 52 q-6 34 -42 30" fill="none" stroke="#e3d6bd" stroke-width="12"/>
+  <!-- steam -->
+  <g fill="none" stroke="#c97e1c" stroke-width="4" stroke-linecap="round" opacity=".55">
+    <path d="M270 196 q-12 -22 0 -44 q12 -22 0 -44"/>
+    <path d="M330 196 q12 -22 0 -44 q-12 -22 0 -44"/>
+  </g>
+  <!-- cardamom -->
+  <ellipse cx="200" cy="362" rx="14" ry="8" fill="#7c8c4a" transform="rotate(-20 200 362)"/>
+  <ellipse cx="402" cy="364" rx="14" ry="8" fill="#7c8c4a" transform="rotate(18 402 364)"/>
+</svg>

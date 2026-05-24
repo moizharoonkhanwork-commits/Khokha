@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Falooda and kulfi shake">
+  <defs>
+    <radialGradient id="dbg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fff6e6"/><stop offset="100%" stop-color="#f1e6d2"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#dbg)"/>
+  <ellipse cx="300" cy="406" rx="150" ry="26" fill="#000" opacity=".12"/>
+  <!-- glass -->
+  <path d="M226 150 L374 150 L356 392 Q300 410 244 392 Z" fill="#ffffff" opacity=".55" stroke="#e3d6bd" stroke-width="3"/>
+  <!-- layers -->
+  <path d="M244 392 Q300 410 356 392 L350 350 L250 350 Z" fill="#e35d8a"/>
+  <rect x="248" y="300" width="104" height="52" fill="#f5f0e6"/>
+  <rect x="246" y="250" width="108" height="52" fill="#e35d8a" opacity=".8"/>
+  <rect x="244" y="206" width="112" height="46" fill="#f6d56a"/>
+  <!-- basil seeds -->
+  <g fill="#2c2017" opacity=".7"><circle cx="270" cy="276" r="3"/><circle cx="300" cy="284" r="3"/><circle cx="330" cy="272" r="3"/><circle cx="288" cy="266" r="3"/><circle cx="316" cy="290" r="3"/></g>
+  <!-- ice cream scoop -->
+  <circle cx="300" cy="178" r="46" fill="#fbeede"/>
+  <circle cx="300" cy="178" r="46" fill="none" stroke="#f0d9bf" stroke-width="2"/>
+  <!-- cherry -->
+  <circle cx="300" cy="138" r="12" fill="#c8432b"/>
+  <path d="M300 126 q14 -16 26 -10" fill="none" stroke="#5fa845" stroke-width="3"/>
+  <!-- straw -->
+  <rect x="338" y="120" width="10" height="260" rx="5" fill="#e8a531" transform="rotate(10 343 250)"/>
+</svg>

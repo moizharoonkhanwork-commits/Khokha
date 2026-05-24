@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Khans Piscataway">
+  <rect width="640" height="400" fill="#dfe7ea"/>
+  <rect y="250" width="640" height="150" fill="#cfd8db"/>
+  <!-- sky glow -->
+  <circle cx="540" cy="70" r="50" fill="#f6d56a" opacity=".7"/>
+  <!-- building -->
+  <rect x="120" y="120" width="400" height="200" fill="#2c2017"/>
+  <rect x="120" y="120" width="400" height="200" fill="none" stroke="#1c140e" stroke-width="4"/>
+  <!-- awning -->
+  <path d="M104 150 L536 150 L536 170 L104 170 Z" fill="#c8432b"/>
+  <path d="M104 170 q27 22 54 0 q27 22 54 0 q27 22 54 0 q27 22 54 0 q27 22 54 0 q27 22 54 0 q27 22 54 0 q27 22 54 0 L536 170 Z" fill="#e8a531"/>
+  <!-- sign -->
+  <text x="320" y="130" font-family="Bebas Neue, Arial Narrow, sans-serif" font-size="42" fill="#e8a531" text-anchor="middle" letter-spacing="4">KHANS</text>
+  <!-- windows -->
+  <rect x="150" y="200" width="150" height="110" fill="#f6d56a" opacity=".85"/>
+  <rect x="340" y="200" width="150" height="110" fill="#f6d56a" opacity=".85"/>
+  <line x1="225" y1="200" x2="225" y2="310" stroke="#2c2017" stroke-width="4"/>
+  <line x1="415" y1="200" x2="415" y2="310" stroke="#2c2017" stroke-width="4"/>
+  <!-- door -->
+  <rect x="305" y="240" width="30" height="70" fill="#3a2a1d"/>
+  <!-- pin -->
+  <g transform="translate(320 40)">
+    <path d="M0 0 C-26 0 -26 34 0 60 C26 34 26 0 0 0 Z" fill="#c8432b"/>
+    <circle cx="0" cy="22" r="11" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 600" role="img" aria-label="Khans signature spread">
+  <defs>
+    <radialGradient id="hglow" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#e8a531" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#e8a531" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hbun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0b859"/><stop offset="100%" stop-color="#d9923a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="320" cy="270" r="280" fill="url(#hglow)"/>
+  <!-- plate -->
+  <ellipse cx="320" cy="430" rx="300" ry="60" fill="#000" opacity=".22"/>
+  <ellipse cx="320" cy="420" rx="290" ry="78" fill="#2c2017"/>
+  <ellipse cx="320" cy="412" rx="262" ry="66" fill="#3a2a1d"/>
+  <!-- fries cup right -->
+  <g transform="translate(470 250)">
+    <path d="M0 70 L120 70 L104 230 L16 230 Z" fill="#c8432b"/>
+    <g fill="#f0b94f" stroke="#d9923a" stroke-width="2">
+      <rect x="18" y="-26" width="16" height="120" rx="5" transform="rotate(-10 26 34)"/>
+      <rect x="48" y="-34" width="16" height="128" rx="5"/>
+      <rect x="78" y="-26" width="16" height="120" rx="5" transform="rotate(10 86 34)"/>
+      <rect x="34" y="-20" width="16" height="116" rx="5" transform="rotate(-3 42 38)"/>
+      <rect x="64" y="-20" width="16" height="116" rx="5" transform="rotate(5 72 38)"/>
+    </g>
+  </g>
+  <!-- drink left -->
+  <g transform="translate(60 230)">
+    <path d="M20 40 L120 40 L106 250 L34 250 Z" fill="#fff" opacity=".5" stroke="#e3d6bd" stroke-width="3"/>
+    <path d="M34 250 L106 250 L100 150 L40 150 Z" fill="#caa15a"/>
+    <rect x="64" y="-30" width="10" height="220" rx="5" fill="#e8a531" transform="rotate(8 69 80)"/>
+    <ellipse cx="70" cy="40" rx="50" ry="12" fill="#fff" opacity=".7"/>
+  </g>
+  <!-- center burger -->
+  <g transform="translate(150 110)">
+    <ellipse cx="170" cy="310" rx="180" ry="30" fill="#000" opacity=".18"/>
+    <path d="M0 150 q170 -140 340 0 z" fill="url(#hbun)"/>
+    <g fill="#fbe9c4"><ellipse cx="90" cy="80" rx="9" ry="4"/><ellipse cx="170" cy="58" rx="9" ry="4"/><ellipse cx="250" cy="80" rx="9" ry="4"/><ellipse cx="130" cy="108" rx="9" ry="4"/><ellipse cx="210" cy="108" rx="9" ry="4"/></g>
+    <path d="M-6 150 q22 22 44 0 q22 22 44 0 q22 22 44 0 q22 22 44 0 q22 22 44 0 q22 22 44 0 q22 22 44 0 L346 168 L-6 168 Z" fill="#5fa845"/>
+    <path d="M6 168 L334 168 L370 204 L306 198 L350 222 L274 210 L320 236 L236 218 L6 218 Z" fill="#f2b734"/>
+    <rect x="0" y="214" width="340" height="48" rx="24" fill="#5b3320"/>
+    <rect x="0" y="214" width="340" height="20" rx="10" fill="#6e4127"/>
+    <path d="M30 260 q10 26 20 0 q14 30 26 0 q12 24 22 0" fill="#c8432b"/>
+    <path d="M0 262 q170 66 340 0 L330 300 q-160 56 -320 0 Z" fill="url(#hbun)"/>
+  </g>
+</svg>

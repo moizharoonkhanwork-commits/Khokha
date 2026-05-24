@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-label="Inside Khans">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c2017"/><stop offset="100%" stop-color="#1c140e"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="520" rx="24" fill="url(#wall)"/>
+  <!-- neon sign -->
+  <text x="320" y="120" font-family="Bebas Neue, Arial Narrow, sans-serif" font-size="74" fill="#e8a531" text-anchor="middle" letter-spacing="6">KHANS</text>
+  <rect x="190" y="138" width="260" height="4" rx="2" fill="#c8432b"/>
+  <text x="320" y="168" font-family="Poppins, sans-serif" font-size="15" fill="#faf3e7" text-anchor="middle" letter-spacing="6" opacity=".8">HALAL · FUSION · STREET FOOD</text>
+  <!-- awning over counter -->
+  <path d="M120 230 L520 230 L520 250 L120 250 Z" fill="#c8432b"/>
+  <path d="M120 250 q25 24 50 0 q25 24 50 0 q25 24 50 0 q25 24 50 0 q25 24 50 0 q25 24 50 0 q25 24 50 0 q25 24 50 0 L520 250 Z" fill="#e8a531"/>
+  <!-- counter -->
+  <rect x="90" y="360" width="460" height="120" rx="6" fill="#3a2a1d"/>
+  <rect x="90" y="360" width="460" height="16" fill="#4a3525"/>
+  <rect x="78" y="352" width="484" height="12" rx="6" fill="#e8a531"/>
+  <!-- stools -->
+  <g fill="#9a5230"><circle cx="170" cy="470" r="22"/><circle cx="320" cy="470" r="22"/><circle cx="470" cy="470" r="22"/></g>
+  <g stroke="#2c2017" stroke-width="6"><line x1="170" y1="488" x2="170" y2="510"/><line x1="320" y1="488" x2="320" y2="510"/><line x1="470" y1="488" x2="470" y2="510"/></g>
+  <!-- pendant lights -->
+  <g stroke="#5a4332" stroke-width="3"><line x1="200" y1="200" x2="200" y2="250"/><line x1="440" y1="200" x2="440" y2="250"/></g>
+  <circle cx="200" cy="262" r="16" fill="#f6d56a"/>
+  <circle cx="440" cy="262" r="16" fill="#f6d56a"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Halwa puri brunch">
+  <defs>
+    <radialGradient id="hbg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fff6e6"/><stop offset="100%" stop-color="#f1e6d2"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#hbg)"/>
+  <!-- big thali -->
+  <ellipse cx="300" cy="270" rx="240" ry="140" fill="#d9923a"/>
+  <ellipse cx="300" cy="266" rx="216" ry="126" fill="#e8a531"/>
+  <ellipse cx="300" cy="262" rx="196" ry="112" fill="#f0c873"/>
+  <!-- puri 1 -->
+  <ellipse cx="210" cy="230" rx="78" ry="48" fill="#e8b454"/>
+  <ellipse cx="210" cy="222" rx="70" ry="40" fill="#f3cd80"/>
+  <circle cx="190" cy="216" r="7" fill="#d99a3a" opacity=".6"/>
+  <circle cx="228" cy="228" r="6" fill="#d99a3a" opacity=".6"/>
+  <!-- puri 2 -->
+  <ellipse cx="290" cy="270" rx="78" ry="48" fill="#e8b454"/>
+  <ellipse cx="290" cy="262" rx="70" ry="40" fill="#f3cd80"/>
+  <circle cx="276" cy="258" r="7" fill="#d99a3a" opacity=".6"/>
+  <!-- channay bowl -->
+  <ellipse cx="392" cy="248" rx="62" ry="40" fill="#7a3f25"/>
+  <ellipse cx="392" cy="242" rx="56" ry="34" fill="#9a5230"/>
+  <g fill="#c98a4a"><circle cx="372" cy="236" r="7"/><circle cx="402" cy="248" r="7"/><circle cx="392" cy="230" r="6"/><circle cx="412" cy="236" r="6"/></g>
+  <!-- halwa scoop -->
+  <ellipse cx="320" cy="200" rx="44" ry="26" fill="#c8432b"/>
+  <ellipse cx="320" cy="194" rx="38" ry="20" fill="#d8593f"/>
+  <g fill="#f6d56a"><circle cx="308" cy="190" r="3"/><circle cx="330" cy="196" r="3"/><circle cx="322" cy="186" r="3"/></g>
+</svg>

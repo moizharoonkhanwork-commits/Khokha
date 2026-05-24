@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Khans burger">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fff6e6"/>
+      <stop offset="100%" stop-color="#f1e6d2"/>
+    </radialGradient>
+    <linearGradient id="bun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0b859"/>
+      <stop offset="100%" stop-color="#d9923a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#bg)"/>
+  <ellipse cx="300" cy="400" rx="190" ry="34" fill="#000" opacity=".12"/>
+  <!-- top bun -->
+  <path d="M118 196 q182 -150 364 0 z" fill="url(#bun)"/>
+  <path d="M118 196 q182 -150 364 0" fill="none" stroke="#c97e1c" stroke-width="3"/>
+  <g fill="#fbe9c4">
+    <ellipse cx="220" cy="120" rx="9" ry="4"/>
+    <ellipse cx="300" cy="98" rx="9" ry="4"/>
+    <ellipse cx="380" cy="120" rx="9" ry="4"/>
+    <ellipse cx="260" cy="150" rx="9" ry="4"/>
+    <ellipse cx="345" cy="150" rx="9" ry="4"/>
+  </g>
+  <!-- lettuce -->
+  <path d="M110 196 q20 22 40 0 q20 22 40 0 q20 22 40 0 q20 22 40 0 q20 22 40 0 q20 22 40 0 q20 22 40 0 q20 22 40 0 L490 214 L110 214 Z" fill="#5fa845"/>
+  <!-- cheese -->
+  <path d="M120 214 L480 214 L520 252 L455 246 L500 270 L420 258 L470 286 L380 266 L120 266 Z" fill="#f2b734"/>
+  <!-- patty -->
+  <rect x="118" y="262" width="364" height="46" rx="22" fill="#5b3320"/>
+  <rect x="118" y="262" width="364" height="20" rx="10" fill="#6e4127"/>
+  <!-- sauce drip -->
+  <path d="M150 304 q10 26 20 0 q14 30 26 0 q12 24 22 0" fill="#c8432b"/>
+  <!-- bottom bun -->
+  <path d="M118 308 q182 70 364 0 L470 348 q-170 60 -340 0 Z" fill="url(#bun)"/>
+  <rect x="128" y="338" width="344" height="26" rx="13" fill="#d9923a"/>
+  <!-- sesame steam -->
+  <path d="M300 70 q-8 -14 0 -28" fill="none" stroke="#c97e1c" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Loaded fries">
+  <defs>
+    <radialGradient id="fbg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fff6e6"/><stop offset="100%" stop-color="#f1e6d2"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#fbg)"/>
+  <ellipse cx="300" cy="404" rx="190" ry="30" fill="#000" opacity=".12"/>
+  <!-- tray -->
+  <path d="M170 250 L430 250 L408 410 L192 410 Z" fill="#c8432b"/>
+  <path d="M170 250 L430 250 L424 286 L176 286 Z" fill="#a5331e"/>
+  <!-- fries -->
+  <g fill="#f0b94f" stroke="#d9923a" stroke-width="2">
+    <rect x="196" y="150" width="20" height="150" rx="6" transform="rotate(-10 206 225)"/>
+    <rect x="236" y="138" width="20" height="160" rx="6" transform="rotate(-4 246 218)"/>
+    <rect x="282" y="132" width="20" height="166" rx="6"/>
+    <rect x="326" y="138" width="20" height="160" rx="6" transform="rotate(5 336 218)"/>
+    <rect x="368" y="150" width="20" height="150" rx="6" transform="rotate(11 378 225)"/>
+    <rect x="258" y="150" width="20" height="150" rx="6" transform="rotate(3 268 225)"/>
+    <rect x="306" y="146" width="20" height="156" rx="6" transform="rotate(-6 316 224)"/>
+  </g>
+  <!-- cheese drizzle -->
+  <path d="M196 250 q30 -28 60 0 q30 -28 60 0 q30 -28 60 0 q30 -28 56 6 L408 286 L192 286 Z" fill="#f2b734" opacity=".92"/>
+  <!-- toppings -->
+  <g><circle cx="232" cy="244" r="9" fill="#7a3f25"/><circle cx="300" cy="232" r="9" fill="#7a3f25"/><circle cx="366" cy="246" r="9" fill="#7a3f25"/></g>
+  <g fill="#3f8f4f"><path d="M260 250 l14 0 -7 12z"/><path d="M330 246 l14 0 -7 12z"/><path d="M210 262 l12 0 -6 10z"/></g>
+  <circle cx="284" cy="262" r="6" fill="#c8432b"/>
+  <circle cx="344" cy="262" r="6" fill="#c8432b"/>
+</svg>

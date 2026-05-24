@@ -11,8 +11,8 @@ Static HTML/CSS/JS — no build step. Deploys to Vercel as-is.
 | --- | --- |
 | Home | `index.html` |
 | Menu | `menu.html` |
-| Piscataway location | `piscataway.html` |
-| Jersey City location | `jersey-city.html` |
+| Middlesex location | `middlesex.html` |
+| Manhattan location | `manhattan.html` |
 | Catering | `catering.html` |
 | Contact | `contact.html` |
 | Order Online | `order.html` |
@@ -21,7 +21,7 @@ Static HTML/CSS/JS — no build step. Deploys to Vercel as-is.
 
 ```
 .
-├── index.html, menu.html, piscataway.html, jersey-city.html,
+├── index.html, menu.html, middlesex.html, manhattan.html,
 │   catering.html, contact.html, order.html
 ├── assets/
 │   ├── css/styles.css
@@ -52,7 +52,7 @@ renders perfectly with zero external dependencies. To use real photography inste
 JPG/PNG in `assets/img/` and point the matching `<img src>` at it (e.g. replace
 `burger.svg` with `burger.jpg`). Filenames map 1:1 to dishes (`burger`, `paratha-roll`,
 `lamb-chops`, `wings`, `loaded-fries`, `chai`, `falooda`, `halwa-puri`) plus `hero`,
-`about`, `catering`, `loc-piscataway`, `loc-jersey-city`.
+`about`, `catering`, `loc-middlesex`, `loc-manhattan`.
 
 Menu items and prices reflect the concept's lineup; update them in `menu.html` (and the
 highlight cards in `index.html`) any time.
